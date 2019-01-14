@@ -307,12 +307,16 @@
     width: 1rem;
     margin-right: 0.7rem;
 
+    background-color: var(--color-primary);
     //Older browsers
     // background-image: url(../img/chevron-thin-right.svg);
     // background-size: cover;
 
+    -webkit-mask-image: url(../img/chevron-thin-right.svg);
+    -webkit-mask-size: cover;
+    mask-image: url(../img/chevron-thin-right.svg);
+    mask-size: cover;
     //Newer browsers - masks
-    background-color: var(--color-primary);
     @supports (mask-image: url(../img/chevron-thin-right.svg)) and
       (mask-size: cover) {
       -webkit-mask-image: url(../img/chevron-thin-right.svg);
@@ -349,4 +353,44 @@
       margin-right: -1.5rem;
     }
   }
+}
+
+//REVIEW
+
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin-bottom: 3.5rem;
+
+  &__text {
+    
+  }
+
+  &__user {
+
+  }
+
+  &__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+  }
+
+  &__user-box {
+
+  }
+
+  &__user-name {
+
+  }
+
+  &__user-date {
+
+  }
+
+  &__rating {
+
+  }
+
 }
