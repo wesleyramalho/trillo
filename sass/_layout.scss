@@ -15,7 +15,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom:  var(--line);
+  border-bottom: var(--line);
 
   display: flex;
   justify-content: space-between;
@@ -26,7 +26,7 @@
   display: flex;
 }
 
-.sidebar { 
+.sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%; //don't grow - don't shrink - start filling 18% of available space
 
@@ -35,7 +35,7 @@
   justify-content: space-between;
 }
 
-.hotel-view { 
+.hotel-view {
   background-color: #fff;
   flex: 1; //grow as much as possible
 }
@@ -53,9 +53,12 @@
   box-shadow: var(--shadow-light);
   padding: 3rem;
   flex: 0 0 60%;
-  margin-right: 4.5em
+  margin-right: 4.5em;
 }
 
-.user-reviews { 
+.user-reviews {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
