@@ -60,6 +60,10 @@
   @media only screen and (max-width: $bp-medium) {
     padding: 3rem;
   }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -68,10 +72,15 @@
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5em;
-  
+
   @media only screen and (max-width: $bp-medium) {
     padding: 2rem;
     margin-right: 3em;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 
