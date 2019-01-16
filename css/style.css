@@ -300,6 +300,8 @@ body {
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem; }
+  .legal__link, .legal__link:visited {
+    color: var(--color-grey-light-4); }
   @media only screen and (max-width: 56.25em) {
     .legal {
       display: none; } }
